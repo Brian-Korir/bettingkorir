@@ -1,3 +1,6 @@
+
+#in this small project it propmpt users to et on lines according to any amount they have and get result by the random library
+
 import random
 MAX_LINES = 3
 MIN_BET = 1
@@ -134,3 +137,5 @@ def main():
    print(f"You left with ${balance}")
    
 main()
+
+
