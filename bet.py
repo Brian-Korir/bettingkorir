@@ -133,7 +133,7 @@ def main():
       if spin_option == "q" :
          break
       balance += spin(balance)
-   
+   print("Play Responsily")
    print(f"You left with ${balance}")
    
 main()
