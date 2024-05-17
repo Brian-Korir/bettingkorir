@@ -20,7 +20,7 @@ symbol_value ={
 from datetime import time 
 def calculate_age(birthdate):
 today= date.time(today)
-age = today.year
+age = today.year - birthdate.year -((today.month, today.day <
 
 
 def check_winnings(columns, lines, bet, values):
