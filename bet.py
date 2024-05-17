@@ -17,7 +17,9 @@ symbol_value ={
    "D":2
    
 }
-def logins(username, password)
+def logins(username, password):
+   username=input("Enter username")
+   print("welcome " + username )
 
 
 def check_winnings(columns, lines, bet, values):
