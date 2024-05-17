@@ -15,7 +15,10 @@ symbol_value ={
    "B":6,
    "C":4,
    "D":2
+   
 }
+def logins(username, password)
+
 
 def check_winnings(columns, lines, bet, values):
    winnings = 0
