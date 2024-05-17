@@ -17,9 +17,8 @@ symbol_value ={
    "D":2
    
 }
-def logins(username, password):
-   username=input("Enter username")
-   print("welcome " + username )
+from datetime import time 
+def calculate_age(birthdate)
 
 
 def check_winnings(columns, lines, bet, values):
