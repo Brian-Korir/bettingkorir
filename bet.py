@@ -21,6 +21,7 @@ from datetime import datetime
 def calculate_age(birthdate):
 today= date.time(today)
 age = today.year - birthdate.year -((today.month, today.day <
+ (birthdate.month,
 
 
 def check_winnings(columns, lines, bet, values):
