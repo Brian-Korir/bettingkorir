@@ -24,6 +24,8 @@ age = today.year - birthdate.year -((today.month, today.day <
  (birthdate.month,birthdate.day))
 return age
 Def age():
+#prompt the user to enter their date of birth in YY mm DD
+
 def check_winnings(columns, lines, bet, values):
    winnings = 0
    winning_lines = []
