@@ -17,7 +17,7 @@ symbol_value ={
    "D":2
    
 }
-from datetime import time 
+from datetime import datetime 
 def calculate_age(birthdate):
 today= date.time(today)
 age = today.year - birthdate.year -((today.month, today.day <
