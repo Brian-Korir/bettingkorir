@@ -23,7 +23,7 @@ today= date.time(today)
 age = today.year - birthdate.year -((today.month, today.day <
  (birthdate.month,birthdate.day))
 return age
-
+Def age():
 def check_winnings(columns, lines, bet, values):
    winnings = 0
    winning_lines = []
