@@ -31,6 +31,7 @@ try:
    #convert the input string to integer 
    birthdate=datetime.strptime(birtdate_input, %Y-%m-%d")
 except ValueError:
+   print("Invalid input format. Please input as indicated")
    
    
 
