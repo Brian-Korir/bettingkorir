@@ -29,7 +29,8 @@ Def age():
 birthdate_input = input("Enter your date of birth in this format yy mm dd")
 try:
    #convert the input string to integer 
-   birthdate=datetime.strptime(birtdate_input,
+   birthdate=datetime.strptime(birtdate_input, %Y-%m-%d")
+   
 
 def check_winnings(columns, lines, bet, values):
    winnings = 0
