@@ -36,6 +36,7 @@ except ValueError:
    return:
    #   Calculate Age 
 age =calculate_age(birthdate)
+#Check if user is 18 years and above
    
 
 def check_winnings(columns, lines, bet, values):
