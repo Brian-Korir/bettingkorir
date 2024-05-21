@@ -39,6 +39,8 @@ age =calculate_age(birthdate)
 #Check if user is 18 years and above
 if age >= 18
     print("You can vote")
+else":
+print("You can vote tou are {age} Years old")
 
 def check_winnings(columns, lines, bet, values):
    winnings = 0
