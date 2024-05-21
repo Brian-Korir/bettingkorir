@@ -21,11 +21,15 @@ from datetime import datetime
 def calculate_age(birthdate):
 today= date.time(today)
 age = today.year - birthdate.year -((today.month, today.day <
- (birthdate.month,birthdate.day))
+ (birthdate.month,
+birthdate.day))
 return age
 Def age():
 #prompt the user to enter their date of birth in YY mm DD
-birthdate_input = input("Enter your date of birth in this formatbyy mm dd")
+birthdate_input = input("Enter your date of birth in this format yy mm dd")
+try:
+   #convert the input string to integer 
+   birthdate=datetime.strptime(birtdate_input,
 
 def check_winnings(columns, lines, bet, values):
    winnings = 0
