@@ -1,4 +1,5 @@
 
+
 #in this small project it propmpt users to et on lines according to any amount they have and get result by the random library
 
 import random
@@ -32,7 +33,9 @@ try:
    birthdate=datetime.strptime(birtdate_input, %Y-%m-%d")
 except ValueError:
    print("Invalid input format. Please input as indicated")
-   
+   return:
+   #   Calculate Age 
+age =calculate_age(birthdate)
    
 
 def check_winnings(columns, lines, bet, values):
